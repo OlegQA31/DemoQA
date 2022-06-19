@@ -1,0 +1,10 @@
+20:20:51.323 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 102.0.5005.61 (resolved driver for Chrome 102)
+20:20:51.336 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\102.0.5005.61\chromedriver.exe
+20:20:54.923 INFO  TestBase - Test starts checkAlert
+20:20:54.923 INFO  MyListener - Start find element--->By.xpath: //h5[text()='Alerts, Frame & Windows']
+20:20:54.933 INFO  MyListener - The element--->By.xpath: //h5[text()='Alerts, Frame & Windows'] was found
+20:20:54.979 INFO  MyListener - Start find element--->By.xpath: //span[text()='Alerts']
+20:20:55.013 INFO  MyListener - The element--->By.xpath: //span[text()='Alerts'] was found
+20:20:55.047 INFO  MyListener - Start find element--->By.xpath: //button[@id='alertButton']
+20:20:55.056 INFO  MyListener - The element--->By.xpath: //button[@id='alertButton'] was found
+20:20:55.091 INFO  TestBase - End of the test checkAlert

@@ -1,0 +1,14 @@
+18:50:00.590 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 102.0.5005.61 (resolved driver for Chrome 102)
+18:50:00.603 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\102.0.5005.61\chromedriver.exe
+18:50:06.480 INFO  TestBase - Test starts fillInTheFormTest
+18:50:06.482 INFO  TestBase - This test with data: John maga@gmail.com
+18:50:08.963 INFO  TestBase - End of the test fillInTheFormTest
+18:50:08.964 INFO  TestBase - Test starts fillInTheFormTestSecond
+18:50:08.964 INFO  TestBase - This test with data: Vince Vince@gmail.com
+18:50:11.721 INFO  TestBase - End of the test fillInTheFormTestSecond
+18:50:11.723 INFO  TestBase - Test starts fillInTheFormTestFourth
+18:50:11.723 INFO  TestBase - This test with data: Brons Vince@gmail.com
+18:50:13.997 INFO  TestBase - End of the test fillInTheFormTestFourth
+18:50:13.997 INFO  TestBase - Test starts fillInTheFormTestThird
+18:50:13.998 INFO  TestBase - This test with data: Bruce maga@gmail.com
+18:50:16.261 INFO  TestBase - End of the test fillInTheFormTestThird

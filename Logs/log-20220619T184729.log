@@ -1,0 +1,6 @@
+18:47:29.569 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 102.0.5005.61 (resolved driver for Chrome 102)
+18:47:29.569 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\102.0.5005.61\chromedriver.exe
+18:47:34.495 INFO  TestBase - Test starts fillInTheFormTest
+18:47:36.816 INFO  TestBase - End of the test fillInTheFormTest
+18:47:36.818 INFO  TestBase - Test starts fillInTheFormTestSecond
+18:47:39.094 INFO  TestBase - End of the test fillInTheFormTestSecond

@@ -1,0 +1,130 @@
+19:26:01.509 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 102.0.5005.61 (resolved driver for Chrome 102)
+19:26:01.518 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\102.0.5005.61\chromedriver.exe
+19:26:05.493 INFO  TestBase - Test starts fillInTheFormTest
+19:26:05.494 INFO  TestBase - This test with data: John maga@gmail.com
+19:26:05.494 INFO  MyListener - Start find element--->By.xpath: //div//h5[text()='Elements']
+19:26:05.503 INFO  MyListener - The element--->By.xpath: //div//h5[text()='Elements'] was found
+19:26:07.059 INFO  MyListener - Start find element--->By.xpath: //span[text()='Text Box']
+19:26:07.082 INFO  MyListener - The element--->By.xpath: //span[text()='Text Box'] was found
+19:26:07.123 INFO  MyListener - Start find element--->By.xpath: //*[@placeholder='Full Name']
+19:26:07.132 INFO  MyListener - The element--->By.xpath: //*[@placeholder='Full Name'] was found
+19:26:07.197 INFO  MyListener - Start find element--->By.xpath: //*[@placeholder='name@example.com']
+19:26:07.205 INFO  MyListener - The element--->By.xpath: //*[@placeholder='name@example.com'] was found
+19:26:07.267 INFO  MyListener - Start find element--->By.xpath: //*[@placeholder='Current Addres']
+19:26:17.273 INFO  MyListener - We faced the problem no such element: Unable to locate element: {"method":"xpath","selector":"//*[@placeholder='Current Addres']"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PKMONSTER', ip: '26.121.132.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58537}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a6aeeac9b4f6a91faa513d414dd11a1e
+*** Element info: {Using=xpath, value=//*[@placeholder='Current Addres']}
+19:26:17.279 INFO  MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@placeholder='Current Addres']"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PKMONSTER', ip: '26.121.132.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58537}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a6aeeac9b4f6a91faa513d414dd11a1e
+*** Element info: {Using=xpath, value=//*[@placeholder='Current Addres']}
+19:26:17.279 INFO  MyListener - Start find element--->By.xpath: //a[@href='https://demoqa.com']
+19:26:17.289 INFO  MyListener - The element--->By.xpath: //a[@href='https://demoqa.com'] was found
+19:26:17.730 INFO  TestBase - End of the test fillInTheFormTest
+19:26:17.731 INFO  TestBase - Test starts fillInTheFormTestSecond
+19:26:17.731 INFO  TestBase - This test with data: Vince Vince@gmail.com
+19:26:17.731 INFO  MyListener - Start find element--->By.xpath: //div//h5[text()='Elements']
+19:26:17.740 INFO  MyListener - The element--->By.xpath: //div//h5[text()='Elements'] was found
+19:26:19.289 INFO  MyListener - Start find element--->By.xpath: //span[text()='Text Box']
+19:26:19.312 INFO  MyListener - The element--->By.xpath: //span[text()='Text Box'] was found
+19:26:19.354 INFO  MyListener - Start find element--->By.xpath: //*[@placeholder='Full Name']
+19:26:19.362 INFO  MyListener - The element--->By.xpath: //*[@placeholder='Full Name'] was found
+19:26:19.419 INFO  MyListener - Start find element--->By.xpath: //*[@placeholder='name@example.com']
+19:26:19.427 INFO  MyListener - The element--->By.xpath: //*[@placeholder='name@example.com'] was found
+19:26:19.486 INFO  MyListener - Start find element--->By.xpath: //*[@placeholder='Current Addres']
+19:26:29.500 INFO  MyListener - We faced the problem no such element: Unable to locate element: {"method":"xpath","selector":"//*[@placeholder='Current Addres']"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PKMONSTER', ip: '26.121.132.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58537}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a6aeeac9b4f6a91faa513d414dd11a1e
+*** Element info: {Using=xpath, value=//*[@placeholder='Current Addres']}
+19:26:29.500 INFO  MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@placeholder='Current Addres']"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PKMONSTER', ip: '26.121.132.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58537}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a6aeeac9b4f6a91faa513d414dd11a1e
+*** Element info: {Using=xpath, value=//*[@placeholder='Current Addres']}
+19:26:29.500 INFO  MyListener - Start find element--->By.xpath: //a[@href='https://demoqa.com']
+19:26:29.519 INFO  MyListener - The element--->By.xpath: //a[@href='https://demoqa.com'] was found
+19:26:32.946 INFO  TestBase - End of the test fillInTheFormTestSecond
+19:26:32.947 INFO  TestBase - Test starts fillInTheFormTestFourth
+19:26:32.947 INFO  TestBase - This test with data: Brons Vince@gmail.com
+19:26:32.947 INFO  MyListener - Start find element--->By.xpath: //div//h5[text()='Elements']
+19:26:32.955 INFO  MyListener - The element--->By.xpath: //div//h5[text()='Elements'] was found
+19:26:34.509 INFO  MyListener - Start find element--->By.xpath: //span[text()='Text Box']
+19:26:34.529 INFO  MyListener - The element--->By.xpath: //span[text()='Text Box'] was found
+19:26:34.573 INFO  MyListener - Start find element--->By.xpath: //*[@placeholder='Full Name']
+19:26:34.580 INFO  MyListener - The element--->By.xpath: //*[@placeholder='Full Name'] was found
+19:26:34.629 INFO  MyListener - Start find element--->By.xpath: //*[@placeholder='name@example.com']
+19:26:34.637 INFO  MyListener - The element--->By.xpath: //*[@placeholder='name@example.com'] was found
+19:26:34.692 INFO  MyListener - Start find element--->By.xpath: //*[@placeholder='Current Addres']
+19:26:44.729 INFO  MyListener - We faced the problem no such element: Unable to locate element: {"method":"xpath","selector":"//*[@placeholder='Current Addres']"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PKMONSTER', ip: '26.121.132.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58537}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a6aeeac9b4f6a91faa513d414dd11a1e
+*** Element info: {Using=xpath, value=//*[@placeholder='Current Addres']}
+19:26:44.729 INFO  MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@placeholder='Current Addres']"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PKMONSTER', ip: '26.121.132.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58537}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a6aeeac9b4f6a91faa513d414dd11a1e
+*** Element info: {Using=xpath, value=//*[@placeholder='Current Addres']}
+19:26:44.729 INFO  MyListener - Start find element--->By.xpath: //a[@href='https://demoqa.com']
+19:26:44.753 INFO  MyListener - The element--->By.xpath: //a[@href='https://demoqa.com'] was found
+19:26:45.336 INFO  TestBase - End of the test fillInTheFormTestFourth
+19:26:45.336 INFO  TestBase - Test starts fillInTheFormTestThird
+19:26:45.337 INFO  TestBase - This test with data: Bruce maga@gmail.com
+19:26:45.337 INFO  MyListener - Start find element--->By.xpath: //div//h5[text()='Elements']
+19:26:45.345 INFO  MyListener - The element--->By.xpath: //div//h5[text()='Elements'] was found
+19:26:46.899 INFO  MyListener - Start find element--->By.xpath: //span[text()='Text Box']
+19:26:46.919 INFO  MyListener - The element--->By.xpath: //span[text()='Text Box'] was found
+19:26:46.963 INFO  MyListener - Start find element--->By.xpath: //*[@placeholder='Full Name']
+19:26:46.970 INFO  MyListener - The element--->By.xpath: //*[@placeholder='Full Name'] was found
+19:26:47.021 INFO  MyListener - Start find element--->By.xpath: //*[@placeholder='name@example.com']
+19:26:47.027 INFO  MyListener - The element--->By.xpath: //*[@placeholder='name@example.com'] was found
+19:26:47.088 INFO  MyListener - Start find element--->By.xpath: //*[@placeholder='Current Addres']
+19:26:57.139 INFO  MyListener - We faced the problem no such element: Unable to locate element: {"method":"xpath","selector":"//*[@placeholder='Current Addres']"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PKMONSTER', ip: '26.121.132.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58537}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a6aeeac9b4f6a91faa513d414dd11a1e
+*** Element info: {Using=xpath, value=//*[@placeholder='Current Addres']}
+19:26:57.139 INFO  MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@placeholder='Current Addres']"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PKMONSTER', ip: '26.121.132.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58537}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a6aeeac9b4f6a91faa513d414dd11a1e
+*** Element info: {Using=xpath, value=//*[@placeholder='Current Addres']}
+19:26:57.139 INFO  MyListener - Start find element--->By.xpath: //a[@href='https://demoqa.com']
+19:26:57.163 INFO  MyListener - The element--->By.xpath: //a[@href='https://demoqa.com'] was found
+19:26:57.725 INFO  TestBase - End of the test fillInTheFormTestThird
