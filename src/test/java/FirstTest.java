@@ -4,14 +4,9 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
 public class FirstTest extends TestBase{
-    @Test
-    public void fillInTheFormTest(){
-        User user= User.builder()
-                .name("John")
-                .email("maga@gmail.com")
-                .caddress("Israel")
-                .paddress("Russia")
-                .build();
+    @Test(dataProvider = "dP", dataProviderClass = MyDataProvider.class)
+    public void fillInTheFormTest(User user){
+
         logger.info("This test with data: "+user.getName()+" "+user.getEmail());
         app.getUserHelper().openForm();
         app.getUserHelper().fillInTheForm(user);
@@ -20,19 +15,14 @@ public class FirstTest extends TestBase{
         //app.getUserHelper().takeScreenShot("src/test/screenshots/scr1.png");
     }
 
-    @Test
-    public void fillInTheFormTestSecond(){
-        User user= User.builder()
-                .name("Vince")
-                .email("Vince@gmail.com")
-                .caddress("Israel")
-                .paddress("Russia")
-                .build();
-        logger.info("This test with data: "+user.getName()+" "+user.getEmail());
+    @Test(dataProvider = "regValidDataCSV",dataProviderClass = MyDataProvider.class)
+    public void fillInTheFormTestSecond(String name,String email,String caddress,String paddress){
+
+        logger.info("This test with data: "+name+" "+email+" "+caddress+" "+paddress);
         app.getUserHelper().openForm();
-        app.getUserHelper().fillInTheForm(user);
+        app.getUserHelper().fillInTheForm(name,email,caddress,paddress);
         app.getUserHelper().submitClick();
-        app.getUserHelper().checkOutput(user);
+        app.getUserHelper().checkOutput(name);
     }
 
     @AfterMethod

@@ -20,7 +20,7 @@ public class UserHelper extends HelperBase{
     public void fillInTheForm(User user) {
         type(By.xpath("//*[@placeholder='Full Name']"), user.getName());
         type(By.xpath("//*[@placeholder='name@example.com']"), user.getEmail());
-        type(By.xpath("//*[@placeholder='Current Addres']"), user.getCaddress());
+        type(By.xpath("//*[@placeholder='Current Address']"), user.getCaddress());
         type(By.xpath("//*[@id='permanentAddress']"), user.getPaddress());
     }
 
@@ -37,6 +37,16 @@ public class UserHelper extends HelperBase{
 
 
         Assert.assertEquals(wd.findElement(By.xpath("//div[@id='output']//p[@id='name']")).getText(),"Name:"+user.getName());
+    }
+    public void checkOutput(String name) {
+
+        System.out.println(wd.findElement(By.xpath("//div[@id='output']//p[@id='name']")).getText());
+        System.out.println(wd.findElement(By.xpath("//div[@id='output']//p[@id='email']")).getText());
+        System.out.println(wd.findElement(By.xpath("//div[@id='output']//p[@id='currentAddress']")).getText());
+        System.out.println(wd.findElement(By.xpath("//div[@id='output']//p[@id='permanentAddress']")).getText());
+
+
+        Assert.assertEquals(wd.findElement(By.xpath("//div[@id='output']//p[@id='name']")).getText(),"Name:"+name);
     }
 
     public void goToAlertfFrameAndActivate() {
@@ -68,5 +78,12 @@ public class UserHelper extends HelperBase{
         String error=alert.getText();
         alert.accept();
         return error.contains("You clicked a button");
+    }
+
+    public void fillInTheForm(String name, String email, String caddress, String paddress) {
+        type(By.xpath("//*[@placeholder='Full Name']"), name);
+        type(By.xpath("//*[@placeholder='name@example.com']"), email);
+        type(By.xpath("//*[@placeholder='Current Address']"), caddress);
+        type(By.xpath("//*[@id='permanentAddress']"), paddress);
     }
 }
