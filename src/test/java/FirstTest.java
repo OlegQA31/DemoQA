@@ -4,7 +4,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
 public class FirstTest extends TestBase{
-    @Test(dataProvider = "dP", dataProviderClass = MyDataProvider.class)
+    @Test(groups = {"tryone"},dataProvider = "dP", dataProviderClass = MyDataProvider.class)
     public void fillInTheFormTest(User user){
 
         logger.info("This test with data: "+user.getName()+" "+user.getEmail());
@@ -25,7 +25,7 @@ public class FirstTest extends TestBase{
         app.getUserHelper().checkOutput(name);
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void homePageReturn(){
         app.getUserHelper().click(By.xpath("//a[@href='https://demoqa.com']"));
     }

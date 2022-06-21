@@ -1,0 +1,4 @@
+19:52:01.391 INFO  i.g.bonigarcia.wdm.WebDriverManager - Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+19:52:01.829 INFO  i.g.bonigarcia.wdm.online.Downloader - Downloading https://github.com/mozilla/geckodriver/releases/download/v0.31.0/geckodriver-v0.31.0-win64.zip
+19:52:03.991 INFO  i.g.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file geckodriver-v0.31.0-win64.zip
+19:52:04.018 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\User\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe

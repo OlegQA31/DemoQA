@@ -1,0 +1,13 @@
+20:18:32.897 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using msedgedriver 102.0.1245.44 (resolved driver for Edge 102)
+20:18:32.911 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\User\.cache\selenium\msedgedriver\win64\102.0.1245.44\msedgedriver.exe
+20:18:35.181 INFO  ApplicationManager - Tests were launched in 'EDGE'
+20:18:37.603 INFO  TestBase - Test starts checkAlert
+20:18:37.605 INFO  MyListener - Start find element--->By.xpath: //h5[text()='Alerts, Frame & Windows']
+20:18:37.616 INFO  MyListener - The element--->By.xpath: //h5[text()='Alerts, Frame & Windows'] was found
+20:18:37.659 INFO  MyListener - Start find element--->By.xpath: //span[text()='Alerts']
+20:18:37.670 INFO  MyListener - The element--->By.xpath: //span[text()='Alerts'] was found
+20:18:37.695 INFO  MyListener - Start find element--->By.xpath: //button[@id='alertButton']
+20:18:37.702 INFO  MyListener - The element--->By.xpath: //button[@id='alertButton'] was found
+20:18:37.735 INFO  MyListener - Start find element--->By.xpath: //a[@href='https://demoqa.com']
+20:18:37.748 INFO  MyListener - The element--->By.xpath: //a[@href='https://demoqa.com'] was found
+20:18:38.237 INFO  TestBase - End of the test checkAlert

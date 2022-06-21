@@ -26,3 +26,31 @@ dependencies {
 test {
     useTestNG()
 }
+
+task sTstart(type: Test){
+
+    useTestNG{
+        def groups=System.getProperty('groups','')
+        if(groups!=null){
+            includeGroups groups
+        }
+        //./gradlew clean -Dgroups=tryone sTstart  (commands in termimal to launch)
+
+
+        def suite = System.getProperty('suite', '')
+
+        if (suite.equals('quick')) {
+            suites 'src/test/resources/quick.xml'
+        } else if (suite.equals('smoke')) {
+            suites 'src/test/resources/smoke.xml'
+        } else {
+            suites 'src/test/resources/testng.xml'
+        }
+    }
+    //./gradlew -Dsuite=quick -Pbrowser=MicrosoftEdge clean sTstart
+
+    if(project.hasProperty('browser')){
+        systemProperty 'browser', "${browser}"
+        //./gradlew -Dsuite=quick -Pbrowser=MicrosoftEdge clean sTstart
+    }
+}

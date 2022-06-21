@@ -4,7 +4,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
 public class SecondTest extends TestBase{
-    @Test
+    @Test(groups = {"trytwo"})
     public void fillInTheFormTestThird(){
         User user= User.builder()
                 .name("Bruce")
@@ -19,7 +19,7 @@ public class SecondTest extends TestBase{
         app.getUserHelper().checkOutput(user);
     }
 
-    @Test
+    @Test(groups = {"trytwo"})
     public void fillInTheFormTestFourth(){
         User user= User.builder()
                 .name("Brons")
@@ -34,7 +34,7 @@ public class SecondTest extends TestBase{
         app.getUserHelper().checkOutput(user);
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void homePageReturn(){
         app.getUserHelper().click(By.xpath("//a[@href='https://demoqa.com']"));
     }

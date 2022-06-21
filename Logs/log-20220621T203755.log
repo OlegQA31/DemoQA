@@ -1,0 +1,96 @@
+20:37:55.939 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 102.0.5005.61 (resolved driver for Chrome 102)
+20:37:55.953 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\102.0.5005.61\chromedriver.exe
+20:37:57.176 INFO  ApplicationManager - Tests were launched in 'Chrome'
+20:37:59.282 INFO  TestBase - Test starts fillInTheFormTest
+20:37:59.294 INFO  TestBase - This test with data: Buba Buba@gmail.com
+20:37:59.294 INFO  MyListener - Start find element--->By.xpath: //div//h5[text()='Elements']
+20:37:59.305 INFO  MyListener - The element--->By.xpath: //div//h5[text()='Elements'] was found
+20:38:00.852 INFO  MyListener - Start find element--->By.xpath: //span[text()='Text Box']
+20:38:00.863 INFO  MyListener - The element--->By.xpath: //span[text()='Text Box'] was found
+20:38:00.889 INFO  MyListener - Start find element--->By.xpath: //*[@placeholder='Full Name']
+20:38:00.899 INFO  MyListener - The element--->By.xpath: //*[@placeholder='Full Name'] was found
+20:38:00.962 INFO  MyListener - Start find element--->By.xpath: //*[@placeholder='name@example.com']
+20:38:00.970 INFO  MyListener - The element--->By.xpath: //*[@placeholder='name@example.com'] was found
+20:38:01.028 INFO  MyListener - Start find element--->By.xpath: //*[@placeholder='Current Address']
+20:38:01.036 INFO  MyListener - The element--->By.xpath: //*[@placeholder='Current Address'] was found
+20:38:01.082 INFO  MyListener - Start find element--->By.xpath: //*[@id='permanentAddress']
+20:38:01.090 INFO  MyListener - The element--->By.xpath: //*[@id='permanentAddress'] was found
+20:38:01.134 INFO  MyListener - Start find element--->By.xpath: //*[@id='submit']
+20:38:01.141 INFO  MyListener - The element--->By.xpath: //*[@id='submit'] was found
+20:38:01.161 INFO  MyListener - Start find element--->By.xpath: //div[@id='output']//p[@id='name']
+20:38:01.169 INFO  MyListener - The element--->By.xpath: //div[@id='output']//p[@id='name'] was found
+20:38:01.176 INFO  MyListener - Start find element--->By.xpath: //div[@id='output']//p[@id='email']
+20:38:01.183 INFO  MyListener - The element--->By.xpath: //div[@id='output']//p[@id='email'] was found
+20:38:01.189 INFO  MyListener - Start find element--->By.xpath: //div[@id='output']//p[@id='currentAddress']
+20:38:01.196 INFO  MyListener - The element--->By.xpath: //div[@id='output']//p[@id='currentAddress'] was found
+20:38:01.203 INFO  MyListener - Start find element--->By.xpath: //div[@id='output']//p[@id='permanentAddress']
+20:38:01.211 INFO  MyListener - The element--->By.xpath: //div[@id='output']//p[@id='permanentAddress'] was found
+20:38:01.218 INFO  MyListener - Start find element--->By.xpath: //div[@id='output']//p[@id='name']
+20:38:01.222 INFO  MyListener - The element--->By.xpath: //div[@id='output']//p[@id='name'] was found
+20:38:01.229 INFO  MyListener - Start find element--->By.xpath: //a[@href='https://demoqa.com']
+20:38:01.237 INFO  MyListener - The element--->By.xpath: //a[@href='https://demoqa.com'] was found
+20:38:01.613 INFO  TestBase - Test starts fillInTheFormTest
+20:38:01.614 INFO  TestBase - This test with data: Duba Duba@gmail.com
+20:38:01.614 INFO  MyListener - Start find element--->By.xpath: //div//h5[text()='Elements']
+20:38:01.620 INFO  MyListener - The element--->By.xpath: //div//h5[text()='Elements'] was found
+20:38:03.147 INFO  MyListener - Start find element--->By.xpath: //span[text()='Text Box']
+20:38:03.159 INFO  MyListener - The element--->By.xpath: //span[text()='Text Box'] was found
+20:38:03.182 INFO  MyListener - Start find element--->By.xpath: //*[@placeholder='Full Name']
+20:38:03.187 INFO  MyListener - The element--->By.xpath: //*[@placeholder='Full Name'] was found
+20:38:03.237 INFO  MyListener - Start find element--->By.xpath: //*[@placeholder='name@example.com']
+20:38:03.242 INFO  MyListener - The element--->By.xpath: //*[@placeholder='name@example.com'] was found
+20:38:03.301 INFO  MyListener - Start find element--->By.xpath: //*[@placeholder='Current Address']
+20:38:03.305 INFO  MyListener - The element--->By.xpath: //*[@placeholder='Current Address'] was found
+20:38:03.349 INFO  MyListener - Start find element--->By.xpath: //*[@id='permanentAddress']
+20:38:03.353 INFO  MyListener - The element--->By.xpath: //*[@id='permanentAddress'] was found
+20:38:03.397 INFO  MyListener - Start find element--->By.xpath: //*[@id='submit']
+20:38:03.401 INFO  MyListener - The element--->By.xpath: //*[@id='submit'] was found
+20:38:03.420 INFO  MyListener - Start find element--->By.xpath: //div[@id='output']//p[@id='name']
+20:38:03.426 INFO  MyListener - The element--->By.xpath: //div[@id='output']//p[@id='name'] was found
+20:38:03.433 INFO  MyListener - Start find element--->By.xpath: //div[@id='output']//p[@id='email']
+20:38:03.438 INFO  MyListener - The element--->By.xpath: //div[@id='output']//p[@id='email'] was found
+20:38:03.446 INFO  MyListener - Start find element--->By.xpath: //div[@id='output']//p[@id='currentAddress']
+20:38:03.451 INFO  MyListener - The element--->By.xpath: //div[@id='output']//p[@id='currentAddress'] was found
+20:38:03.458 INFO  MyListener - Start find element--->By.xpath: //div[@id='output']//p[@id='permanentAddress']
+20:38:03.462 INFO  MyListener - The element--->By.xpath: //div[@id='output']//p[@id='permanentAddress'] was found
+20:38:03.469 INFO  MyListener - Start find element--->By.xpath: //div[@id='output']//p[@id='name']
+20:38:03.473 INFO  MyListener - The element--->By.xpath: //div[@id='output']//p[@id='name'] was found
+20:38:03.476 INFO  MyListener - Start find element--->By.xpath: //a[@href='https://demoqa.com']
+20:38:03.481 INFO  MyListener - The element--->By.xpath: //a[@href='https://demoqa.com'] was found
+20:38:03.857 INFO  TestBase - Test starts fillInTheFormTest
+20:38:03.857 INFO  TestBase - This test with data: Cuba Cuba@gmail.com
+20:38:03.857 INFO  MyListener - Start find element--->By.xpath: //div//h5[text()='Elements']
+20:38:03.862 INFO  MyListener - The element--->By.xpath: //div//h5[text()='Elements'] was found
+20:38:05.389 INFO  MyListener - Start find element--->By.xpath: //span[text()='Text Box']
+20:38:05.400 INFO  MyListener - The element--->By.xpath: //span[text()='Text Box'] was found
+20:38:05.424 INFO  MyListener - Start find element--->By.xpath: //*[@placeholder='Full Name']
+20:38:05.429 INFO  MyListener - The element--->By.xpath: //*[@placeholder='Full Name'] was found
+20:38:05.486 INFO  MyListener - Start find element--->By.xpath: //*[@placeholder='name@example.com']
+20:38:05.491 INFO  MyListener - The element--->By.xpath: //*[@placeholder='name@example.com'] was found
+20:38:05.549 INFO  MyListener - Start find element--->By.xpath: //*[@placeholder='Current Address']
+20:38:05.554 INFO  MyListener - The element--->By.xpath: //*[@placeholder='Current Address'] was found
+20:38:05.598 INFO  MyListener - Start find element--->By.xpath: //*[@id='permanentAddress']
+20:38:05.603 INFO  MyListener - The element--->By.xpath: //*[@id='permanentAddress'] was found
+20:38:05.646 INFO  MyListener - Start find element--->By.xpath: //*[@id='submit']
+20:38:05.651 INFO  MyListener - The element--->By.xpath: //*[@id='submit'] was found
+20:38:05.670 INFO  MyListener - Start find element--->By.xpath: //div[@id='output']//p[@id='name']
+20:38:05.675 INFO  MyListener - The element--->By.xpath: //div[@id='output']//p[@id='name'] was found
+20:38:05.682 INFO  MyListener - Start find element--->By.xpath: //div[@id='output']//p[@id='email']
+20:38:05.687 INFO  MyListener - The element--->By.xpath: //div[@id='output']//p[@id='email'] was found
+20:38:05.693 INFO  MyListener - Start find element--->By.xpath: //div[@id='output']//p[@id='currentAddress']
+20:38:05.698 INFO  MyListener - The element--->By.xpath: //div[@id='output']//p[@id='currentAddress'] was found
+20:38:05.705 INFO  MyListener - Start find element--->By.xpath: //div[@id='output']//p[@id='permanentAddress']
+20:38:05.709 INFO  MyListener - The element--->By.xpath: //div[@id='output']//p[@id='permanentAddress'] was found
+20:38:05.716 INFO  MyListener - Start find element--->By.xpath: //div[@id='output']//p[@id='name']
+20:38:05.720 INFO  MyListener - The element--->By.xpath: //div[@id='output']//p[@id='name'] was found
+20:38:05.724 INFO  MyListener - Start find element--->By.xpath: //a[@href='https://demoqa.com']
+20:38:05.728 INFO  MyListener - The element--->By.xpath: //a[@href='https://demoqa.com'] was found
+20:38:06.112 INFO  TestBase - Test starts checkAlert
+20:38:06.113 INFO  MyListener - Start find element--->By.xpath: //h5[text()='Alerts, Frame & Windows']
+20:38:06.120 INFO  MyListener - The element--->By.xpath: //h5[text()='Alerts, Frame & Windows'] was found
+20:38:06.159 INFO  MyListener - Start find element--->By.xpath: //span[text()='Alerts']
+20:38:06.173 INFO  MyListener - The element--->By.xpath: //span[text()='Alerts'] was found
+20:38:06.197 INFO  MyListener - Start find element--->By.xpath: //button[@id='alertButton']
+20:38:06.214 INFO  MyListener - The element--->By.xpath: //button[@id='alertButton'] was found
+20:38:06.253 INFO  MyListener - Start find element--->By.xpath: //a[@href='https://demoqa.com']
+20:38:06.260 INFO  MyListener - The element--->By.xpath: //a[@href='https://demoqa.com'] was found

@@ -4,13 +4,13 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
 public class AlertTest extends TestBase{
-    @Test
+    @Test(groups = {"tryone"})
     public void checkAlert(){
         app.getUserHelper().goToAlertfFrameAndActivate();
         Assert.assertTrue(app.getUserHelper().isAlertDisplayed());
         Assert.assertTrue(app.getUserHelper().doYouClickOnTheAlertButton());
     }
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void homePageReturn(){
         app.getUserHelper().click(By.xpath("//a[@href='https://demoqa.com']"));
     }
