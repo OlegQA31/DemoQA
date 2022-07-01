@@ -12,6 +12,7 @@ public class AlertTest extends TestBase{
     }
     @AfterMethod(alwaysRun = true)
     public void homePageReturn(){
+        app.getUserHelper().pause(3000);
         app.getUserHelper().click(By.xpath("//a[@href='https://demoqa.com']"));
     }
 
